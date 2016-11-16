@@ -1,0 +1,54 @@
+.container-fluid{
+	height: 100vh;
+	padding: 0;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+.navbar-nav li{
+	padding-right: 15px;
+}
+
+.title {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	background: linear-gradient(200deg, transparent,black), url(/home/r/personal/images/337H-min.jpg);
+	background-position: center center;
+	background-size: cover;
+    background-size: 100% 100%;
+}
+
+.title_box {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	outline: 3px white solid;
+}
+
+.about_me_section {
+	padding-top: 10%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.about_me_header {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.about_me_header h1{
+	text-align: center;
+}
+
+.biography {
+	line-height: 1.8em;
+}
+
+.education_header {
+	text-align: center;
+	padding-top: 2em;
+}
