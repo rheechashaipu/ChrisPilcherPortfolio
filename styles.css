@@ -42,7 +42,7 @@ Education sections**/
 	padding-top: 5%;
 	width: 55%;
 	margin: 0 auto;
-	
+
 }
 
 .about_me_header {
@@ -119,6 +119,12 @@ Education sections**/
 
 
 @media (max-width: 600px){
+	
+	.navbar-nav li{
+		padding-right: 5px;
+	}
+
+
 	.about_me_section{
 		width: 90%;
 	}
