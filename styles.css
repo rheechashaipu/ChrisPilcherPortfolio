@@ -121,7 +121,7 @@ Education sections**/
 @media (max-width: 600px){
 	
 	.navbar-nav li{
-		padding-right: 5px;
+		padding-right: 0px;
 	}
 
 
