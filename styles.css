@@ -28,10 +28,21 @@
 	outline: 3px white solid;
 }
 
+/**Styling for the About Me content. Class .about_and_edu affects both the About Me
+Education sections**/
+
+.about_and_edu {
+	background-color: gray;
+	color: white;
+	min-height: 100vh;
+	height: auto;
+}
+
 .about_me_section {
-	padding-top: 10%;
-	width: 50%;
+	padding-top: 5%;
+	width: 55%;
 	margin: 0 auto;
+	
 }
 
 .about_me_header {
@@ -48,7 +59,70 @@
 	line-height: 1.8em;
 }
 
+/**styling for education section**/
+
+.education_section {
+	padding-top: 20px;
+	width: 55%;
+	margin: 0 auto;
+}
+
 .education_header {
 	text-align: center;
 	padding-top: 2em;
+	padding-bottom: 20px;
+}
+
+.education_history{
+	text-align: left;
+}
+
+.education_history h3 {
+	text-align: left;
+}
+
+.education_history ul{
+	display: inline-block;
+	text-align: left;
+	list-style-type: none; 
+	padding-left: 0px;
+}
+
+.education_history p{
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.extracurriculars{
+	padding-top: 20px;
+	text-align: left;
+}
+
+.extracurriculars ul{
+	padding-left: 0px;
+}
+
+.extracurriculars li{
+	display: inline;
+	padding-right: 10px;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.extracurriculars ul a {
+ 	color: white;
+}
+
+
+/**Portfolio, project examples**/
+
+
+@media (max-width: 600px){
+	.about_me_section{
+		width: 90%;
+	}
+	.education_section{
+		width: 90%
+	}
 }
