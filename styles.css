@@ -116,8 +116,41 @@ Education sections**/
 
 
 /**Portfolio, project examples**/
+/* Chris added these */
+.portfolio_header{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
 
+.portfolio{
+	background-color: white;
+	color: gray;
+	min-height: 100vh;
+	height: auto;
+}
 
+.portfolio_header{
+	text-align: center;
+}
+.technologies{
+	padding-top: 5%;
+	width: 55%;
+	margin: 0 auto;
+}
+.technologies p{
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.technologies ul{
+	display: inline-block;
+	text-align: left;
+	list-style-type: none; 
+	padding-left: 0px;
+}
+/* End of Chris adding stuff */
 @media (max-width: 600px){
 	
 	.navbar-nav li{
