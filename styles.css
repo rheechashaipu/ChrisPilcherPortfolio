@@ -150,6 +150,11 @@ Education sections**/
 	list-style-type: none; 
 	padding-left: 0px;
 }
+
+#portfolio{
+	background-color: white;
+	color: gray;
+}
 /* End of Chris adding stuff */
 @media (max-width: 600px){
 	
