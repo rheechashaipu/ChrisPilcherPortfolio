@@ -170,3 +170,11 @@ Education sections**/
 		width: 90%
 	}
 }
+
+ul{
+	list-style-type: none;
+}
+
+.language-header{
+	border-bottom: 1px solid #444444;
+}
